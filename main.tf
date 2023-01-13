@@ -16,7 +16,7 @@ provider "aws" {
 #}
 
 resource "aws_s3_bucket" "bucket" {
-  bucket = "jocasmen-terraform"
+  bucket = "jocasmen-terraform-spacelift"
   acl = "private"
 
   versioning {
