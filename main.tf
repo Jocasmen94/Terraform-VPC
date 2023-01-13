@@ -15,14 +15,14 @@ provider "aws" {
 #  }
 #}
 
-resource "aws_s3_bucket" "bucket" {
-  bucket = "jocasmen-terraform-spacelift"
-  acl = "private"
-
-  versioning {
-    enabled = true
-  }
-}
+#resource "aws_s3_bucket" "bucket" {
+#  bucket = "jocasmen-terraform-spacelift"
+#  acl = "private"
+#
+#  versioning {
+#    enabled = true
+# }
+#}
 
 
 resource "aws_vpc" "main-1" {
